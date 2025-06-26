@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria Interactiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Manipular DOM</h1>
+    <div class="main-div">
+        JavaScript Programacion: <br>
+        <img src="images.png" alt="Imagen original">
+        <div>
+         <div class="old-div">
+            Este DIV se eliminara  
+         </div>
+
+         <input type="text" id="filterInput" placeholder="Filtrar Items">
+         <ul class="list">
+            <li>Desarrollo</li>
+            <li>Aplicaciones</li>
+            <li>Web</li>
+            </ul>
+
+            <button> Presiona aqui</button>
+
+        </div>
+        <input type="text" id="itemInput" placeholder="Añade un items a la lista">
+        <button id="addItemButton">Añadir Item</button>
+        <ul id="dynamicList"></ul>
+        <div>
+
+
+         <script type="module" src="main.js"></script>
+</body>
+</html>

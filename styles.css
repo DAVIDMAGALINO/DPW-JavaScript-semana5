@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #309223;
+}
+
+.main-div {
+    padding: 30px;
+    margin-top: 20px;
+    background-color: aqua;
+       
+}
+
+
+.old-div {
+    background-color: #ffdddd;
+    padding: 10px;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+}
